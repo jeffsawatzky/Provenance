@@ -86,11 +86,14 @@
 	</array>
 	<key>Revision</key>
 	<string>f9c61252</string>
+	<key>UIBackgroundModes</key>
+	<array/>
 	<key>UIMainStoryboardFile</key>
 	<string>Provenance</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>arm64</string>
+		<string>gamekit</string>
 	</array>
 	<key>UIUserInterfaceStyle</key>
 	<string>Automatic</string>

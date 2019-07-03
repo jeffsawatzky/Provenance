@@ -35,5 +35,9 @@
 	</dict>
 	<key>Revision</key>
 	<string></string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>gamekit</string>
+	</array>
 </dict>
 </plist>

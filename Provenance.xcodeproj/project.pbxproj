@@ -122,6 +122,31 @@
 		1AD4BC6F1BFD38D6007D6C7C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD4BC6E1BFD38D6007D6C7C /* AVFoundation.framework */; };
 		1ADDA5B417B30CD7008A7ADD /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADDA5B317B30CD7008A7ADD /* GLKit.framework */; };
 		1AECF4A91966D76100F8704E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AECF4A81966D76100F8704E /* libsqlite3.dylib */; };
+		1F548B8022CB16190025074B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B7F22CB16190025074B /* GameKit.framework */; };
+		1F548B8222CB161B0025074B /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B8122CB161B0025074B /* HomeKit.framework */; };
+		1F548B8422CB16220025074B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B8322CB16210025074B /* MapKit.framework */; };
+		1F548B8622CB165B0025074B /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B8522CB165B0025074B /* AuthenticationServices.framework */; };
+		1F548B8822CB16600025074B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B8722CB16600025074B /* GameKit.framework */; };
+		1F548B8A22CB16630025074B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B8922CB16630025074B /* HealthKit.framework */; };
+		1F548B8C22CB16640025074B /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B8B22CB16640025074B /* HomeKit.framework */; };
+		1F548B8D22CB166A0025074B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A47C94217BC1BC400C27644 /* AudioToolbox.framework */; };
+		1F548B8F22CB166E0025074B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B8E22CB166E0025074B /* MapKit.framework */; };
+		1F548B9122CB16700025074B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B9022CB16700025074B /* NetworkExtension.framework */; };
+		1F548B9322CB167A0025074B /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B9222CB167A0025074B /* PassKit.framework */; };
+		1F548B9522CB167C0025074B /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B9422CB167C0025074B /* ExternalAccessory.framework */; };
+		1F548B9622CB16A70025074B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B7F22CB16190025074B /* GameKit.framework */; };
+		1F548B9722CB16A90025074B /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B8122CB161B0025074B /* HomeKit.framework */; };
+		1F548B9922CB16AA0025074B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B9822CB16AA0025074B /* StoreKit.framework */; };
+		1F548B9A22CB16AE0025074B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B8322CB16210025074B /* MapKit.framework */; };
+		1F548B9B22CB16C60025074B /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B8522CB165B0025074B /* AuthenticationServices.framework */; };
+		1F548B9C22CB16CF0025074B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B8722CB16600025074B /* GameKit.framework */; };
+		1F548B9D22CB16D10025074B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B8922CB16630025074B /* HealthKit.framework */; };
+		1F548B9E22CB16D50025074B /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B8B22CB16640025074B /* HomeKit.framework */; };
+		1F548B9F22CB16D80025074B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B9022CB16700025074B /* NetworkExtension.framework */; };
+		1F548BA122CB16DF0025074B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548BA022CB16DF0025074B /* StoreKit.framework */; };
+		1F548BA222CB16E30025074B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B8E22CB166E0025074B /* MapKit.framework */; };
+		1F548BA322CB16EB0025074B /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B9222CB167A0025074B /* PassKit.framework */; };
+		1F548BA422CB16EC0025074B /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F548B9422CB167C0025074B /* ExternalAccessory.framework */; };
 		1F8D52461D9198E000C29F90 /* PVLicensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8D52451D9198E000C29F90 /* PVLicensesViewController.swift */; };
 		1F8D52481D91993000C29F90 /* licenses.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F8D52471D91993000C29F90 /* licenses.html */; };
 		1FB125961D93E57F00D045D0 /* PVAppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB125951D93E57F00D045D0 /* PVAppearanceViewController.swift */; };
@@ -750,6 +775,19 @@
 		1AD9AA501ACC9E4900EC87A0 /* Provenance_Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Provenance_Tests-Prefix.pch"; sourceTree = "<group>"; };
 		1ADDA5B317B30CD7008A7ADD /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		1AECF4A81966D76100F8704E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1F548B7F22CB16190025074B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/GameKit.framework; sourceTree = DEVELOPER_DIR; };
+		1F548B8122CB161B0025074B /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/HomeKit.framework; sourceTree = DEVELOPER_DIR; };
+		1F548B8322CB16210025074B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		1F548B8522CB165B0025074B /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		1F548B8722CB16600025074B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		1F548B8922CB16630025074B /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		1F548B8B22CB16640025074B /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		1F548B8E22CB166E0025074B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1F548B9022CB16700025074B /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		1F548B9222CB167A0025074B /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		1F548B9422CB167C0025074B /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		1F548B9822CB16AA0025074B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		1F548BA022CB16DF0025074B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		1F8D523E1D9190E900C29F90 /* PVAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAvailability.h; sourceTree = "<group>"; };
 		1F8D52451D9198E000C29F90 /* PVLicensesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PVLicensesViewController.swift; sourceTree = "<group>"; };
 		1F8D52471D91993000C29F90 /* licenses.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = licenses.html; sourceTree = "<group>"; };
@@ -1074,11 +1112,13 @@
 				B3DE5B1421B102F20066069E /* ProvenanceShared.framework in Frameworks */,
 				B3B10475218F20FE00210C39 /* RxRealm.framework in Frameworks */,
 				B3B1047E218F20FE00210C39 /* RxSwift.framework in Frameworks */,
+				1F548BA222CB16E30025074B /* MapKit.framework in Frameworks */,
 				B3B10476218F20FE00210C39 /* SQLite.framework in Frameworks */,
 				B3B10479218F20FE00210C39 /* SwiftyUserDefaults.framework in Frameworks */,
 				B3B1047D218F20FE00210C39 /* XLActionController.framework in Frameworks */,
 				B377E67E21252C6600D88973 /* GameController.framework in Frameworks */,
 				B3AD689D1D6EA6450021B949 /* PicoDrive.framework in Frameworks */,
+				1F548BA122CB16DF0025074B /* StoreKit.framework in Frameworks */,
 				B324C61F2192057E009F4EDC /* PVFCEU.framework in Frameworks */,
 				DF3751942026B83600EE727E /* PVRSPCXD4.framework in Frameworks */,
 				B3B3B8921DECF8BC00602746 /* PVMupen64Plus.framework in Frameworks */,
@@ -1086,20 +1126,27 @@
 				B3C9D4AE1DEA74390068D057 /* PVGB.framework in Frameworks */,
 				1A3D432C17B2FDFE004DFFFC /* libz.dylib in Frameworks */,
 				1A2A95AA17F7682400F1CB0D /* libstdc++.dylib in Frameworks */,
+				1F548BA422CB16EC0025074B /* ExternalAccessory.framework in Frameworks */,
 				1A2B0E8E1AD18961005FB77C /* libc++.dylib in Frameworks */,
 				1AECF4A91966D76100F8704E /* libsqlite3.dylib in Frameworks */,
+				1F548B9E22CB16D50025074B /* HomeKit.framework in Frameworks */,
 				B3C9D4331DEA1B340068D057 /* PVGenesis.framework in Frameworks */,
 				B354693C1DECDA710018B6F3 /* PVAtari800.framework in Frameworks */,
 				1AD4BC6F1BFD38D6007D6C7C /* AVFoundation.framework in Frameworks */,
 				B3CDEECD21D4D0D0000C55F7 /* ZipArchive.framework in Frameworks */,
 				B3CB85BF1E9BFB07009155A6 /* PVPokeMini.framework in Frameworks */,
 				1A4869DD17C8D60C0019F6D2 /* CFNetwork.framework in Frameworks */,
+				1F548B9B22CB16C60025074B /* AuthenticationServices.framework in Frameworks */,
 				B316B4DF219269C600693472 /* PVYabause.framework in Frameworks */,
 				1A4869DE17C8D60C0019F6D2 /* MobileCoreServices.framework in Frameworks */,
+				1F548B9F22CB16D80025074B /* NetworkExtension.framework in Frameworks */,
 				1A4869DF17C8D60C0019F6D2 /* Security.framework in Frameworks */,
+				1F548B9C22CB16CF0025074B /* GameKit.framework in Frameworks */,
+				1F548BA322CB16EB0025074B /* PassKit.framework in Frameworks */,
 				1A4869E017C8D60C0019F6D2 /* SystemConfiguration.framework in Frameworks */,
 				1A4869D617C8D5450019F6D2 /* CoreData.framework in Frameworks */,
 				B3AF701321916C3A000FA7F9 /* PVLibrary.framework in Frameworks */,
+				1F548B9D22CB16D10025074B /* HealthKit.framework in Frameworks */,
 				B324C61D21920523009F4EDC /* ProSystem.framework in Frameworks */,
 				1A47C94417BC1BC400C27644 /* AudioToolbox.framework in Frameworks */,
 				1ADDA5B417B30CD7008A7ADD /* GLKit.framework in Frameworks */,
@@ -1127,9 +1174,11 @@
 				B369B0DA219EA29A0064EDCA /* Fabric.framework in Frameworks */,
 				B369B0DB219EA29A0064EDCA /* Crashlytics.framework in Frameworks */,
 				B3DE5B2A21B110A90066069E /* ProvenanceShared.framework in Frameworks */,
+				1F548B9922CB16AA0025074B /* StoreKit.framework in Frameworks */,
 				B324C61B219203AF009F4EDC /* libc++.tbd in Frameworks */,
 				B324C619219203A5009F4EDC /* libsqlite3.tbd in Frameworks */,
 				B324C6172192038C009F4EDC /* libxml2.tbd in Frameworks */,
+				1F548B9A22CB16AE0025074B /* MapKit.framework in Frameworks */,
 				B324C61521920384009F4EDC /* libz.tbd in Frameworks */,
 				B324C312219195CE009F4EDC /* CFNetwork.framework in Frameworks */,
 				B324C310219195C9009F4EDC /* MobileCoreServices.framework in Frameworks */,
@@ -1176,11 +1225,13 @@
 				2882D23621DEBB6700AA0B5D /* SteamController.framework in Frameworks */,
 				B324C60B2191FFBB009F4EDC /* PVGBA.framework in Frameworks */,
 				B324C64F219216DD009F4EDC /* PVLibrary.framework in Frameworks */,
+				1F548B9622CB16A70025074B /* GameKit.framework in Frameworks */,
 				B3C9D5E11DEA8A290068D057 /* PVGenesis.framework in Frameworks */,
 				B3C9D5601DEA85D10068D057 /* PVSNES.framework in Frameworks */,
 				B3B3B9791DED14A100602746 /* PVMupen64PlusVideoRice.framework in Frameworks */,
 				B3DDB0A820291E8E001C6B64 /* PVMupen64PlusRspHLE.framework in Frameworks */,
 				B3B3B97F1DED169100602746 /* PVRSPCXD4.framework in Frameworks */,
+				1F548B9722CB16A90025074B /* HomeKit.framework in Frameworks */,
 				B3C9D5E41DEA8AED0068D057 /* PVStella.framework in Frameworks */,
 				B3B3B9761DED14A100602746 /* PVMupen64Plus.framework in Frameworks */,
 				B324C61121920037009F4EDC /* ProSystem.framework in Frameworks */,
@@ -1232,12 +1283,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F548B8A22CB16630025074B /* HealthKit.framework in Frameworks */,
+				1F548B9122CB16700025074B /* NetworkExtension.framework in Frameworks */,
 				B324C5F72191FD89009F4EDC /* PVLibrary.framework in Frameworks */,
+				1F548B8622CB165B0025074B /* AuthenticationServices.framework in Frameworks */,
+				1F548B8D22CB166A0025074B /* AudioToolbox.framework in Frameworks */,
 				B324C5F92191FDB0009F4EDC /* PVSupport.framework in Frameworks */,
+				1F548B9522CB167C0025074B /* ExternalAccessory.framework in Frameworks */,
+				1F548B9322CB167A0025074B /* PassKit.framework in Frameworks */,
 				B3B104EE218F7D6A00210C39 /* CocoaLumberjack.framework in Frameworks */,
 				B3B104EF218F7D6A00210C39 /* CocoaLumberjackSwift.framework in Frameworks */,
+				1F548B8C22CB16640025074B /* HomeKit.framework in Frameworks */,
 				B3B104F0218F7D6A00210C39 /* Realm.framework in Frameworks */,
 				B3B104F1218F7D6A00210C39 /* RealmSwift.framework in Frameworks */,
+				1F548B8F22CB166E0025074B /* MapKit.framework in Frameworks */,
+				1F548B8822CB16600025074B /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1245,10 +1305,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F548B8222CB161B0025074B /* HomeKit.framework in Frameworks */,
 				B324C314219195E0009F4EDC /* TVServices.framework in Frameworks */,
 				B324C5F82191FDAA009F4EDC /* PVSupport.framework in Frameworks */,
 				B324C651219216FF009F4EDC /* PVLibrary.framework in Frameworks */,
+				1F548B8422CB16220025074B /* MapKit.framework in Frameworks */,
 				B3AF705A21916F30000FA7F9 /* Foundation.framework in Frameworks */,
+				1F548B8022CB16190025074B /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2211,19 +2274,76 @@
 					1A3D409317B2DCE4004DFFFC = {
 						LastSwiftMigration = 1020;
 						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 1;
+							};
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
 							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.AutoFillCredentialProvider = {
 								enabled = 1;
 							};
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
+							com.apple.ClassKit = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+							com.apple.HotspotConfiguration = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
 							com.apple.Multipath = {
+								enabled = 1;
+							};
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
 								enabled = 1;
 							};
 							com.apple.Push = {
 								enabled = 1;
 							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
 							com.apple.Siri = {
+								enabled = 1;
+							};
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+							com.apple.Wallet = {
 								enabled = 1;
 							};
 							com.apple.iCloud = {
@@ -2238,7 +2358,31 @@
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
 							};
+							com.apple.BackgroundModes.appletvos = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
 							com.apple.GameControllers.appletvos = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
 								enabled = 1;
 							};
 							com.apple.iCloud = {
@@ -2278,7 +2422,58 @@
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1020;
 						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 1;
+							};
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
 							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.AutoFillCredentialProvider = {
+								enabled = 1;
+							};
+							com.apple.ClassKit = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+							com.apple.Wallet = {
 								enabled = 1;
 							};
 							com.apple.iCloud = {
@@ -2290,6 +2485,30 @@
 						CreatedOnToolsVersion = 7.2;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
 								enabled = 1;
 							};
 						};
@@ -3193,9 +3412,9 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvsimulator*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -3213,9 +3432,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.provenance-emu.provenance";
+				PRODUCT_BUNDLE_IDENTIFIER = sawatzky.jeff.provenance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.provenance-emu.provenance";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OBJC_BRIDGING_HEADER = "Provenance-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -3241,8 +3460,8 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvsimulator*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -3261,9 +3480,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1  ";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.provenance-emu.provenance";
+				PRODUCT_BUNDLE_IDENTIFIER = sawatzky.jeff.provenance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.provenance-emu.provenance";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Provenance-Bridging-Header.h";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
@@ -3288,13 +3507,13 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = ProvenanceTV/Provenance.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvsimulator*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3319,9 +3538,9 @@
 					"@executable_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.provenance-emu.provenance";
+				PRODUCT_BUNDLE_IDENTIFIER = sawatzky.jeff.provenance;
 				PRODUCT_NAME = Provenance;
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.provenance-emu.provenance tvos";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OBJC_BRIDGING_HEADER = "ProvenanceTV-Bridging-Header.h";
@@ -3345,12 +3564,13 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = ProvenanceTV/Provenance.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3376,9 +3596,9 @@
 					"@executable_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.provenance-emu.provenance";
+				PRODUCT_BUNDLE_IDENTIFIER = sawatzky.jeff.provenance;
 				PRODUCT_NAME = Provenance;
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.provenance-emu.provenance tvos";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SWIFT_OBJC_BRIDGING_HEADER = "ProvenanceTV-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 3;
@@ -3397,8 +3617,9 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -3458,9 +3679,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3655,8 +3877,8 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -3675,9 +3897,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1  ";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.provenance-emu.provenance";
+				PRODUCT_BUNDLE_IDENTIFIER = sawatzky.jeff.provenance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.provenance-emu.provenance";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Provenance-Bridging-Header.h";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 5.0;
@@ -3702,14 +3924,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = ProvenanceTV/Provenance.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3735,9 +3957,9 @@
 					"@executable_path/Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.provenance-emu.provenance";
+				PRODUCT_BUNDLE_IDENTIFIER = sawatzky.jeff.provenance;
 				PRODUCT_NAME = Provenance;
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.provenance-emu.provenance tvos";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SWIFT_OBJC_BRIDGING_HEADER = "ProvenanceTV-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 3;
@@ -3756,9 +3978,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3811,13 +4034,13 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = TopShelf/TopShelf.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3837,9 +4060,9 @@
 					"@executable_path/../../Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.provenance-emu.provenance.topshelf-extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "sawatzky.jeff.provenance.extension-topshelf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.provenance-emu.provenance.topshelf-extension tvos";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "TopShelf-Bridging-Header.h";
@@ -3864,10 +4087,10 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3885,9 +4108,9 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "-Xfrontend -warn-long-function-bodies=200 -Xfrontend -warn-long-expression-type-checking=200";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.provenance-emu.provenance.extension.spotlight";
+				PRODUCT_BUNDLE_IDENTIFIER = "sawatzky.jeff.provenance.extension-topshelf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.provenance-emu.provenance.extension.spotlight";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = EXTENSION;
 				SWIFT_OBJC_BRIDGING_HEADER = "Spotlight-Bridging-Header.h";
@@ -4028,7 +4251,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4074,7 +4297,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4120,7 +4343,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4164,7 +4387,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -4204,7 +4427,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -4244,7 +4467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -4284,7 +4507,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4331,7 +4554,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4378,7 +4601,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -4422,9 +4645,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -4441,9 +4664,9 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_SWIFT_FLAGS = "-Xfrontend -warn-long-function-bodies=200 -Xfrontend -warn-long-expression-type-checking=200";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.provenance-emu.provenance.extension.spotlight";
+				PRODUCT_BUNDLE_IDENTIFIER = "sawatzky.jeff.provenance.extension-topshelf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.provenance-emu.provenance.extension.spotlight";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG EXTENSION";
 				SWIFT_COMPILATION_MODE = singlefile;
@@ -4470,10 +4693,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4491,9 +4714,9 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "-Xfrontend -warn-long-function-bodies=200 -Xfrontend -warn-long-expression-type-checking=200";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.provenance-emu.provenance.extension.spotlight";
+				PRODUCT_BUNDLE_IDENTIFIER = "sawatzky.jeff.provenance.extension-topshelf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.provenance-emu.provenance.extension.spotlight";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = EXTENSION;
 				SWIFT_OBJC_BRIDGING_HEADER = "Spotlight-Bridging-Header.h";
@@ -4512,12 +4735,12 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = TopShelf/TopShelf.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4536,9 +4759,9 @@
 					"@executable_path/../../Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.provenance-emu.provenance.topshelf-extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "sawatzky.jeff.provenance.extension-topshelf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.provenance-emu.provenance.topshelf-extension tvos";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "TopShelf-Bridging-Header.h";
@@ -4556,12 +4779,12 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = TopShelf/TopShelf.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9DSA2J9CHZ;
+				DEVELOPMENT_TEAM = 89BKBEP3XP;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -4581,9 +4804,9 @@
 					"@executable_path/../../Frameworks",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.provenance-emu.provenance.topshelf-extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "sawatzky.jeff.provenance.extension-topshelf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.provenance-emu.provenance.topshelf-extension tvos";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "TopShelf-Bridging-Header.h";
